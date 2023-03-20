@@ -18,7 +18,7 @@ Flash
 ## Installation
 To run the project, you can clone the repository to your local machine using the following command:
 
-bash
+
 Copy code
 ```
 https://github.com/Hariharan-Durairaj/Classification-of-Arrhythmia-using-Deep-Learning-with-2-D-ECG-Spectral-Image-Representation.git
@@ -30,6 +30,8 @@ Copy code
 ```
 pip install -r requirements.txt
 ```
+
+Replace the api in app.py with a new IBM cloud api and deploy the model in IBM cloud
 
 ## Usage
 
@@ -43,6 +45,8 @@ To install flask, run the below code
 ```
 python -m pip install flask
 ```
+
+
 
 ECG_classification.ipynb: This is the main Jupyter notebook that contains the code for building and training the deep learning model.
 
