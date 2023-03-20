@@ -40,7 +40,7 @@ def upload():
         pred=(model.predict(x) > 0.5).astype("int32")
         print("Prediction",pred)
 
-        API_KEY = "CfDUcJPiNifKOS66z3JgWMTASTRiMkSGq4oOCs1L8PJz"
+        API_KEY = "[enter the api key]"
         token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={"apikey":
         API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
         mltoken = token_response.json()["access_token"]
