@@ -4,7 +4,7 @@
 The Classification of Arrhythmia using Deep Learning with 2-D ECG Spectral Image Representation project is aimed at building a deep learning model that can classify different types of arrhythmia from 2D ECG spectral image representation.
 
 ## Dataset
-The dataset used in this project is available in the Dataset folder. The dataset consists of two folders, train and test. The train folder contains 8670 ECG images in 6 classes and the test folder contains 2286 ECG images in the same 6 classes.
+The dataset consists of two folders, train and test. The train folder contains 8670 ECG images in 6 classes and the test folder contains 2286 ECG images in the same 6 classes.
 
 ## Requirements
 Python 3.x
